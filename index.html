@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="headerdiv">
+                <img src="./PartlyCloudycloud.svg" alt="cloud" id="cloud" />
+                <h1>Weather by VicBox</h1>
+            </div>
+
+            <div class="headerdiv">
+                <a href="">GitHUb</a>
+                <a href="">About</a>
+            </div>
+        </header>
+
+        <main>
+            <nav id="mainWeatherPage">
+                <div class="head">
+                    <img id="sun" src="./Sunny.png" alt="Sunny" />
+
+                    <div>
+                        <p id="cityname"></p>
+                        <p id="date"></p>
+                    </div>
+                </div>
+
+                <div id="temperatureDiv">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                </div>
+
+                <section>
+                    <div>
+                        <div class="iconandtext">
+                            <img id="icon" src="./icons8-eye-50.png" alt="" />
+                            <p>
+                                visibility
+                                <span id="visibility"></span>
+                            </p>
+                        </div>
+                        <div class="iconandtext">
+                            <img id="icon" src="./icons8-menu-50.png" alt="" />
+                            <p>humidity <span id="humidity"></span></p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="iconandtext">
+                            <img id="icon" src="./icons8-thermometer-64.png" alt="" />
+                            <p>feels like <span id="feelslike"></span></p>
+                        </div>
+
+                        <div class="iconandtext">
+                            <img id="icon" src="./icons8-wind-50.png" alt="" />
+                            <p>wind <span id="wind"></span></p>
+                        </div>
+                    </div>
+                </section>
+            </nav>
+
+            <button id="button">
+                <p class="plus">+</p>
+                <p>add new location</p>
+            </button>
+        </main>
+
+        <footer>
+            <p>
+                Made with <span><img src="" alt="" /></span> by Victor Alvarado
+            </p>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
